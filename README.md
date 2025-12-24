@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  <a href="https://rayaan-portfolio.vercel.app/" target="_blank">rayaan.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
@@ -27,11 +27,11 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/rayaan-24/Portfolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [rayaan-24](https://github.com/rayaan-24/Portfolio). Thanks!
 
 ## Built With
 
-My personal portfolio <a href="https://mohammedrayaan.vercel.app/" target="_blank">mohammedrayaan.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://rayaan-portfolio.vercel.app/" target="_blank">mohammedrayaan.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
