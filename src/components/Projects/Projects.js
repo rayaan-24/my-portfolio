@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import online_voting from "../../Assets/Projects/online_voting_system.png";
-
+import trackmytrain from "../../Assets/Projects/trackmytrain.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -19,7 +19,6 @@ function Projects() {
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={online_voting}
@@ -29,7 +28,15 @@ function Projects() {
               ghLink="https://github.com/rayaan-24/Online-Voting-System"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={trackmytrain}
+              isBlog={false}
+              title="TrackMy Train"
+              description="TrackMy Train is a real-time train tracking web application developed as part of my DBMS and OOP coursework. The project uses Python (Flask) for the backend, MySQL for database management, and HTML, CSS, and JavaScript for the frontend. It allows users to track train status, view routes, stations, and timings, demonstrating concepts of database connectivity and CRUD operations"
+              // ghLink="https://github.com/rayaan-24/TrackMyTrain"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
