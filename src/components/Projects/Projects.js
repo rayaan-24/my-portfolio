@@ -34,7 +34,7 @@ function Projects() {
               isBlog={false}
               title="TrackMy Train"
               description="TrackMy Train is a real-time train tracking web application developed as part of my DBMS and OOP coursework. The project uses Python (Flask) for the backend, MySQL for database management, and HTML, CSS, and JavaScript for the frontend. It allows users to track train status, view routes, stations, and timings, demonstrating concepts of database connectivity and CRUD operations"
-              // ghLink="https://github.com/rayaan-24/TrackMyTrain"
+              ghLink="https://github.com/rayaan-24/TrackMy-Train"
             />
           </Col>
         </Row>
