@@ -543,6 +543,48 @@ button:focus {
   padding-top: 10px !important;
 }
 
+
+/* --------- */
+/* Journey History */
+/* --------- */
+
+.journey-section {
+  padding-top: 60px;
+}
+
+.journey-timeline {
+  padding-left: 25px;
+  border-left: 3px solid #8a49a8;
+}
+
+.journey-item {
+  position: relative;
+  margin-bottom: 35px;
+  padding-left: 25px;
+}
+
+.journey-item::before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border: 3px solid #8a49a8;
+  border-radius: 50%;
+}
+
+.journey-item h4 {
+  margin-bottom: 8px;
+}
+
+.journey-item p {
+  text-align: justify;
+  font-size: 1.05em;
+  color: white;
+}
+
 /* --------- */
 /* About */
 /* --------- */

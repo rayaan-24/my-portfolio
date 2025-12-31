@@ -6,11 +6,11 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import JourneyHistory from "./JourneyHistory";
 
 function About() {
   return (
     <>
-      {" "}
       <Particle />
       <Container fluid className="about-section">
         <Container>
@@ -26,8 +26,14 @@ function About() {
               <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                 Know Who <strong className="purple">I'M</strong>
               </h1>
+
               <Aboutcard />
+
+              {/* ✅ JOURNEY HISTORY ADDED HERE */}
+              <JourneyHistory />
+
             </Col>
+
             <Col
               md={5}
               style={{ paddingTop: "120px", paddingBottom: "50px" }}
@@ -36,8 +42,9 @@ function About() {
               <img src={laptopImg} alt="about" className="img-fluid" />
             </Col>
           </Row>
+
           <h1 className="project-heading">
-            Professional <strong className="purple">Skillset </strong>
+            Professional <strong className="purple">Skillset</strong>
           </h1>
 
           <Techstack />
@@ -45,6 +52,7 @@ function About() {
           <h1 className="project-heading">
             <strong className="purple">Tools</strong> I use
           </h1>
+
           <Toolstack />
 
           <Github />
