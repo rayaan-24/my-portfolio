@@ -24,7 +24,7 @@ function Projects() {
               imgPath={trackmytrain}
               isBlog={false}
               title="TrackMy Train"
-              description="TrackMy Train is a real-time train tracking web application developed as part of my 2nd semester (DBMS) coursework. The project uses Python (Flask) for the backend, MySQL for database management, and HTML, CSS, and JavaScript for the frontend, demonstrating concepts of database connectivity and CRUD operations"
+              description="TrackMy Train is a real-time train tracking web application developed as part of my 2nd semester (DBMS) coursework. The project uses Python (Flask) for the backend, MySQL for database management, and HTML, CSS, and JavaScript for the frontend, demonstrating concepts of database connectivity and web development."
               ghLink="https://github.com/rayaan-24/TrackMy-Train"
             />
           </Col>
